@@ -46,7 +46,13 @@ print(message[::-1])  # string reversal
 
 
 # boolean
-is_cool = False
 
 print(bool(""))
+is_cool = False
 print(bool("some string"))
+
+# list - arrays
+list2 = [1, "a", True, 1.5]
+
+
+list3 = list2[:]  # make a copy instead of referencing the same array
