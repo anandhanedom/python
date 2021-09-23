@@ -10,6 +10,11 @@
 # set
 # dict
 
+# type conversion
+# str()
+# int()
+# type()
+
 # int and float
 print(type(1 + 2))
 print(type(2 - 4))
@@ -38,3 +43,10 @@ print(message[0:8:2])  # [start:stop:stepover]
 print(message[1:])  # start from index 1
 print(message[-1])  # last index
 print(message[::-1])  # string reversal
+
+
+# boolean
+is_cool = False
+
+print(bool(""))
+print(bool("some string"))
