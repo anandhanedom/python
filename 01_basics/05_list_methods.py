@@ -49,3 +49,12 @@ print(latest)
 
 ### common list patters ###
 print(len(new_basket))
+
+print(list(range(1, 100)))  # generate list
+
+new_sentence = " ".join(["hi", "my", "name"])
+print(new_sentence)
+
+
+# list unpacking
+a, b, c, *other, d = [1, 2, 3, 4, 5, 6]  # d -very last item

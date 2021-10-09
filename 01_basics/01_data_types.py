@@ -57,6 +57,6 @@ list2 = [1, "a", True, 1.5]
 
 list3 = list2[:]  # make a copy instead of referencing the same array
 
-# dictionary
+# dictionary - dictionary kerys need to be hashable - no list
 dictionary = {"a": [1, 2, 3], "b": "hello", "c": True}
 print(dictionary["a"])
