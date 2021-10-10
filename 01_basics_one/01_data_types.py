@@ -60,3 +60,11 @@ list3 = list2[:]  # make a copy instead of referencing the same array
 # dictionary - dictionary kerys need to be hashable - no list
 dictionary = {"a": [1, 2, 3], "b": "hello", "c": True}
 print(dictionary["a"])
+
+
+# tuple - immutable lists
+my_tuple = (1, 2, 3, 4, 5, 6)
+
+# sets
+my_set = {1, 2, 3, 4, 5, 5}
+print(my_set)  # only return unique items
