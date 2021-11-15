@@ -9,7 +9,7 @@ class User:
 class Wizard(User):
     def __init__(self, name, power, email):
         # User.__init__(self, email) - OLD
-        super().__init__(email) # NEW way
+        super().__init__(email)  # NEW way
         self.name = name
         self.power = power
 
@@ -19,3 +19,4 @@ class Wizard(User):
 
 wizard1 = Wizard("Merlin", 90, "merlin@gmail.com")
 print(wizard1.email)
+print(dir(wizard1))
