@@ -22,3 +22,32 @@ def add(a=0, b=0):
 
 total = add(1, 2)
 print(total)
+
+# DOC-STRINGS
+def test(a):
+    """
+    Info: this function tests and prints param a
+    """
+    print(a)
+
+
+test(1)
+# help(test)
+# print(test.__doc__)
+
+# *args and **kwargs - standard names
+# Rule: params, *args, default params, **kwargs
+
+
+def super_function(*args, **kwargs):
+    print(args)
+    print(kwargs)
+
+    kwargs_sum = 0
+    for item in kwargs.values():
+        kwargs_sum += item
+
+    return sum(args) + kwargs_sum
+
+
+print(super_function(1, 2, 3, 4, 5, num1=5, num2=10))
