@@ -19,4 +19,6 @@ class Wizard(User):
 
 wizard1 = Wizard("Merlin", 90, "merlin@gmail.com")
 print(wizard1.email)
+
+# INTROSPECTION
 print(dir(wizard1))
