@@ -32,3 +32,16 @@ while i < len(some_list):
     i += 1
 
 print(dupicates)
+
+
+def get_hightest_even(numbers):
+    highest_number = 0
+
+    for number in numbers:
+        if number % 2 is 0 and number > highest_number:
+            highest_number = number
+
+    return highest_number if highest_number else "No even numbers found"
+
+
+print(get_hightest_even([1, 3]))
