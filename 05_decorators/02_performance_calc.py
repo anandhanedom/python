@@ -1,4 +1,3 @@
-# Decorator
 from time import time
 
 
