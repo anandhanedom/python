@@ -1,3 +1,4 @@
+# recursion
 def get_factorial(number):
     if number == 0:
         return 1
@@ -9,9 +10,7 @@ five_factorial = get_factorial(5)
 print(five_factorial)
 
 
-# decoratorsss
-
-
+# decorators
 def smart_divider(func):
     def wrapper(a, b):
         if a < b:
