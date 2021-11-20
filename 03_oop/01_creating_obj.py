@@ -36,7 +36,10 @@ print(player1.age)
 player1.run(10)
 player1.shout()
 
-print(player1.add_things(1, 2))  # on instance
+print(player1.add_things2(1, 2))  # on instance
+
+
+print(PlayerCharacter.add_things2(12, 2))
 
 player_2 = PlayerCharacter.add_things(10, 2)  # on class
 print(player_2.age)
