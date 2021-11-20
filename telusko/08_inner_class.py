@@ -36,3 +36,4 @@ print(lap10.brand)
 
 
 lap1.show()
+lap10.show()
