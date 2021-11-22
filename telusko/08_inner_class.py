@@ -32,8 +32,10 @@ print(id(lap2))
 
 
 lap10 = s1.Laptop("lenovo", "ryzen 7", 16)
-print(lap10.brand)
+lap11 = s1.Laptop("dell", "ryzen 5", 8)
 
+print(lap10.brand)
+print(lap11.ram)
 
 lap1.show()
 lap10.show()
