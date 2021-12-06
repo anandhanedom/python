@@ -2,8 +2,8 @@ def special_for_loop(iterable):
     iterator = iter(iterable)
     while True:
         try:
-            # print(iterator)
             print(next(iterator))
+
         except StopIteration:
             break
 
@@ -11,8 +11,6 @@ def special_for_loop(iterable):
 special_for_loop([1, 2, 3, 4])
 
 # range implementation
-
-
 class MyGen:
     current = 0
 
@@ -28,6 +26,7 @@ class MyGen:
             num = MyGen.current
             MyGen.current += 1
             return num
+
         raise StopIteration
 
 
