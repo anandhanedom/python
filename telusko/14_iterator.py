@@ -12,7 +12,7 @@ class TopTen:
 
     def __next__(self):
         if self.num <= 10:
-            val = self.num  
+            val = self.num
             self.num += 1
 
             return val
@@ -30,3 +30,20 @@ print(next(values))
 
 for i in values:
     print(i)
+
+
+# For loop working
+my_obj = [1, 2, 3, 4, 5, 6]
+
+
+def custom_for_loop(iterable):
+    iter_obj = iter(my_obj)
+    while True:
+        try:
+            element = next(iter_obj)
+            print(element)
+        except StopIteration:
+            break
+
+
+custom_for_loop(my_obj)
