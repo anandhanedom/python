@@ -43,3 +43,7 @@ print(PlayerCharacter.add_things2(12, 2))
 
 player_2 = PlayerCharacter.add_things(10, 2)  # on class
 print(player_2.age)
+
+
+player_3 = player1.add_things(100, 2)
+print(player_3.age)
