@@ -18,3 +18,7 @@ s2 = Student(60, 65)
 s3 = s1 + s2  # => Student.__add__(s1,s2) - overloading '+ operator'
 
 print(s3.m1)
+
+
+s4 = s1.__add__(s2)
+print(s4.m1)
