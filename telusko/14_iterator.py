@@ -37,7 +37,7 @@ my_obj = [1, 2, 3, 4, 5, 6]
 
 
 def custom_for_loop(iterable):
-    iter_obj = iter(my_obj)
+    iter_obj = iter(iterable)
     while True:
         try:
             element = next(iter_obj)
