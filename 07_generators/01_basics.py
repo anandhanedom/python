@@ -1,13 +1,13 @@
 # Without gen ...
-# def make_list(number):
-#     result = []
-#     for i in range(1, number + 1):
-#         result.append(i)
-#     return result
+def make_list(number):
+    result = []
+    for i in range(1, number + 1):
+        result.append(i)
+    return result
 
 
-# my_list = make_list(50)
-# print(my_list)
+my_list = make_list(50)
+print(my_list)
 
 
 def gen_function(number):
