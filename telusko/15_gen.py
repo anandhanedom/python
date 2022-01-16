@@ -7,8 +7,8 @@ def topTen():
 
     while n <= 10:
         sq = n * n
-        yield sq
-        n += 1  # after return like yield
+        yield sq  # return like yield
+        n += 1
 
 
 values = topTen()
